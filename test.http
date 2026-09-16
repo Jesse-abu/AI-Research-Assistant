@@ -1,0 +1,7 @@
+POST http://localhost:3000/api/pipeline/run
+Content-Type: application/json
+
+{ "topic": "Multi-Agent System Design" }
+
+###
+GET http://localhost:3000/health

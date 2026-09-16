@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Multi-Agent Research Pipeline</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+
+    <h1>Multi-Agent Pipeline Workspace</h1>
+    
+    <div class="card">
+        <h3>Start Research Session</h3>
+        <div style="display: flex; gap: 10px;">
+        <input type="text" id="topicInput" placeholder="Enter topic (e.g., Autonomous Agent Frameworks 2026)">
+        <button id="runBtn">Run Pipeline</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>Pipeline Logs</h3>
+        <pre id="logOutput">// Execution logs will stream here...</pre>
+    </div>
+
+    <div class="card">
+        <h3>Generated Final Draft</h3>
+        <div id="draftOutput" class="draft-container">Your report will appear here upon completion.</div>
+    </div>
+    <script src="/app.js"></script>
+    </body>
+</html>

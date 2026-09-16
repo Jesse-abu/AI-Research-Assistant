@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background: #eee;
+}
+
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer
+}
+
+button:disabled {
+    background: #aaa;
+}
+
+pre {
+    background: #222;
+    color: #21e147;
+    padding: 16px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 14px;
+}
+
+.draft-container {
+    background: #fff;
+    padding: 20px;
+    border-left: 1px solid #06c;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
